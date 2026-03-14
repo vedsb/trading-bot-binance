@@ -34,7 +34,13 @@ trading_bot/
 ```
 
 ---
+## 📸 Screenshots
 
+### Market Order
+![Market Order](Screenshot%202026-03-14%20150319.png)
+
+### Limit Order
+![Limit Order](Screenshot%202026-03-14%20150536.png)
 ## ⚙️ Setup
 
 ### 1. Clone the repository
