@@ -1,0 +1,42 @@
+2026-03-14 14:33:40 | DEBUG    | trading_bot.client | BinanceClient initialised → https://testnet.binancefuture.com
+2026-03-14 14:33:40 | INFO     | trading_bot.orders | MARKET | symbol=BTCUSDT side=BUY qty=0.001
+2026-03-14 14:33:40 | INFO     | trading_bot.client | Placing order → {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-03-14 14:33:40 | DEBUG    | trading_bot.client | → POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1773479020193, 'recvWindow': 5000}
+2026-03-14 14:33:40 | DEBUG    | trading_bot.client | ← POST /fapi/v1/order | HTTP 401
+2026-03-14 14:33:40 | ERROR    | trading_bot.client | API error | code=-2015 msg=Invalid API-key, IP, or permissions for action
+2026-03-14 14:33:40 | ERROR    | trading_bot.cli | BinanceAPIError: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-03-14 14:39:00 | DEBUG    | trading_bot.client | BinanceClient initialised → https://testnet.binancefuture.com
+2026-03-14 14:39:00 | INFO     | trading_bot.orders | MARKET | symbol=BTCUSDT side=BUY qty=0.001
+2026-03-14 14:39:00 | INFO     | trading_bot.client | Placing order → {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-03-14 14:39:00 | DEBUG    | trading_bot.client | → POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1773479340791, 'recvWindow': 5000}
+2026-03-14 14:39:01 | DEBUG    | trading_bot.client | ← POST /fapi/v1/order | HTTP 401
+2026-03-14 14:39:01 | ERROR    | trading_bot.client | API error | code=-2015 msg=Invalid API-key, IP, or permissions for action
+2026-03-14 14:39:01 | ERROR    | trading_bot.cli | BinanceAPIError: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-03-14 14:43:56 | DEBUG    | trading_bot.client | BinanceClient initialised → https://testnet.binancefuture.com
+2026-03-14 14:43:56 | INFO     | trading_bot.orders | MARKET | symbol=BTCUSDT side=BUY qty=0.001
+2026-03-14 14:43:56 | INFO     | trading_bot.client | Placing order → {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-03-14 14:43:56 | DEBUG    | trading_bot.client | → POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1773479636202, 'recvWindow': 5000}
+2026-03-14 14:43:56 | DEBUG    | trading_bot.client | ← POST /fapi/v1/order | HTTP 400
+2026-03-14 14:43:56 | ERROR    | trading_bot.client | API error | code=-1021 msg=Timestamp for this request was 1000ms ahead of the server's time.
+2026-03-14 14:43:56 | ERROR    | trading_bot.cli | BinanceAPIError: Binance API error -1021: Timestamp for this request was 1000ms ahead of the server's time.
+2026-03-14 14:47:18 | DEBUG    | trading_bot.client | BinanceClient initialised → https://testnet.binancefuture.com
+2026-03-14 14:47:18 | INFO     | trading_bot.orders | MARKET | symbol=BTCUSDT side=BUY qty=0.001
+2026-03-14 14:47:18 | INFO     | trading_bot.client | Placing order → {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-03-14 14:47:18 | DEBUG    | trading_bot.client | → POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1773479827992, 'recvWindow': 5000}
+2026-03-14 14:47:19 | DEBUG    | trading_bot.client | ← POST /fapi/v1/order | HTTP 400
+2026-03-14 14:47:19 | ERROR    | trading_bot.client | API error | code=-4164 msg=Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-14 14:47:19 | ERROR    | trading_bot.cli | BinanceAPIError: Binance API error -4164: Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-14 14:47:51 | DEBUG    | trading_bot.client | BinanceClient initialised → https://testnet.binancefuture.com
+2026-03-14 14:47:51 | INFO     | trading_bot.orders | MARKET | symbol=BTCUSDT side=BUY qty=0.002
+2026-03-14 14:47:51 | INFO     | trading_bot.client | Placing order → {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.002'}
+2026-03-14 14:47:51 | DEBUG    | trading_bot.client | → POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.002', 'timestamp': 1773479860963, 'recvWindow': 5000}
+2026-03-14 14:47:52 | DEBUG    | trading_bot.client | ← POST /fapi/v1/order | HTTP 200
+2026-03-14 14:47:52 | DEBUG    | trading_bot.client | Response: {'orderId': 12805987786, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'XjS0GllS2X0BA16OvB56CZ', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1773479861464}
+2026-03-14 14:47:52 | INFO     | trading_bot.client | Order accepted → orderId=12805987786 status=NEW
+2026-03-14 14:48:32 | DEBUG    | trading_bot.client | BinanceClient initialised → https://testnet.binancefuture.com
+2026-03-14 14:48:32 | INFO     | trading_bot.orders | LIMIT | symbol=BTCUSDT side=SELL qty=0.002 price=99000 tif=GTC
+2026-03-14 14:48:32 | INFO     | trading_bot.client | Placing order → {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.002', 'price': '99000', 'timeInForce': 'GTC'}
+2026-03-14 14:48:33 | DEBUG    | trading_bot.client | → POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.002', 'price': '99000', 'timeInForce': 'GTC', 'timestamp': 1773479902291, 'recvWindow': 5000}
+2026-03-14 14:48:33 | DEBUG    | trading_bot.client | ← POST /fapi/v1/order | HTTP 200
+2026-03-14 14:48:33 | DEBUG    | trading_bot.client | Response: {'orderId': 12805998280, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '5Bt7hkSDkx4bqgMp8wFKe0', 'price': '99000.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1773479902825}
+2026-03-14 14:48:33 | INFO     | trading_bot.client | Order accepted → orderId=12805998280 status=NEW
